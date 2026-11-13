@@ -1,0 +1,27 @@
+print("RUMAH SAKIT SEHAT")
+print("========================")
+print("DATA PASIEN OPNAME")
+nama = input("Nama pasien: ")
+
+print("1. Pasien Bedah")
+print("2. Pasien Anak")
+print("3. Pasien Jantung")
+print("4. Pasien Saraf")
+print("5. Pasien Paru-paru")
+print("6. Pasien Ginjal")
+print("7. Pasien Kebidanan")
+print("8. Pasien Ortopedi")
+print("9. Pasien Penyakit Dalam")
+print("10. Pasien Infeksi")
+
+pilihan = int(input("Masukkan nomor (1-10): "))
+
+if pilihan >= 1 and pilihan <= 10:
+        print("Nama:", nama)
+        print("Nomor pasien:", pilihan)
+        print("Status: Pasien opname")
+else:
+                    print("Pilihan tidak tersedia")
+
+                    print("TERIMA KASIH")
+                    print("========================")
